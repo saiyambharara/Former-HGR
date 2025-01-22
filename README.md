@@ -1,43 +1,93 @@
-# Former-DFER
+# Former-HGR: Hybrid Feature-Aware Transformer for Hand Gesture Recognition
 
-*Zengqun Zhao, Qingshan Liu. "[Former-DFER: Dynamic Facial Expression Recognition Transformer](https://drive.google.com/file/d/12vyWD4mJ9HCkLyBctoPcvUbOU36Ptgc8/view?usp=sharing)". ACM International Conference on Multimedia.*
+This repository contains the official implementation of **Former-HGR**, a novel hybrid feature-aware transformer for hand gesture recognition (HGR). The work was published in [ICPR 2024](https://www.icpr.org/) and introduces a robust approach to improving the accuracy and efficiency of HGR systems, especially under challenging conditions like complex backgrounds and varying lighting.
 
-## Setup
+## Overview
 
-``` conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2 -c pytorch ```
+Former-HGR is designed to address the challenges faced by traditional HGR methods, such as:
+- Illumination variations
+- Complex backgrounds
+- Diverse hand shapes
+- Gesture class similarities
 
-## Training on DFEW
+Key components:
+1. **Multi-Dconv Head Transposed Attention (MDTA)**: Efficiently captures global context by computing attention across channels.
+2. **Hybrid Feature-Aware Network (HFAN)**: Enriches the model with multi-scale features using adaptive fusion of convolutional kernels.
 
-- Step 1: download [DFEW](https://dfew-dataset.github.io) dataset.
-- Step 2: fill in all the ***your_dataset_path*** in ```script.py```, then run ```script.py```.
-- Step 3: run ``` sh main_DFEW_trainer.sh ```
+This model achieves state-of-the-art performance on multiple HGR benchmarks, including **NUSII**, **OUHANDS**, and **MUGD** datasets.
 
-## Recent Updates
+---
 
-#### Pretrain Models on DFEW
+## Features
+- **Global feature perception**: Employs MDTA for efficient attention.
+- **Multi-scale feature learning**: Utilizes HFAN for adaptive feature extraction.
+- **Person-independent validation**: Robust performance across diverse datasets.
 
-The trained models on DFER (fd1, fd2, fd3, fd4, fd5) can be downloaded [here](https://drive.google.com/drive/folders/1g_n3HURQyQ-oBN6tYvhwD2M32Tdm_9gu?usp=sharing) (Google Driver).
+---
 
-#### Performance on FERV39k
+## Benchmarks and Results
 
-Recently, a new dynamic FER dataset named [FERV39k](https://wangyanckxx.github.io/Proj_CVPR2022_FERV39k.html) is proposed, the results of the Former-DFER on FERV39k are as follows:
+| Dataset       | Accuracy (%) | F1-Score |
+|---------------|--------------|----------|
+| **NUSII**     | 99.50        | 0.8350   |
+| **OUHANDS**   | 96.10        | 0.9540   |
+| **MUGD**      | 87.05        | 0.7450   |
 
-| Happiness| Sadness| Neutral| Anger| Surprise| Disgust| Fear | **UAR**  | **WAR**  |
-| :----:   | :----: | :----: |:----:|  :----: | :----: |:----:| :----:   | :----:   |
-| 67.57    | 44.16  | 51.81  | 48.93| 25.09   | 10.80  | 9.80 | **36.88**| **45.72**| 
+---
 
-<!-- ## Pre-trained Models
+## Requirements
 
-The pre-trained Former-DFER model on DFEW can be downloaded [here](https://drive.google.com/file/d/1YV-KpdYQVAvSQw1setzBF1LeT4qx1bVt/view?usp=sharing). -->
+To replicate the results, install the following dependencies:
+- Python 3.8+
+- PyTorch 1.10+
+- CUDA 11.1
+- Other libraries: `torchvision`, `numpy`, `matplotlib`, `scikit-learn`
 
-## Citation
-If you find our work useful, please consider citing our paper:
+Install the requirements via:
+```bash
+pip install -r requirements.txt
 ```
-@inproceedings{zhao2021former,
-  title={Former-DFER: Dynamic Facial Expression Recognition Transformer},
-  author={Zhao, Zengqun and Liu, Qingshan},
-  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
-  pages={1553--1561},
-  year={2021}
-}
+
+---
+
+## Usage
+
+### Dataset Preparation
+
+Download the following datasets:
+1. [NUSII Dataset](https://www.comp.nus.edu.sg/~nusii/)
+2. [OUHANDS Dataset](https://ouhands.org/)
+3. [MUGD Dataset](https://mugd-dataset.org/)
+
+Place the datasets in the `data/` directory with the following structure:
 ```
+data/
+├── NUSII/
+├── OUHANDS/
+└── MUGD/
+```
+
+### Training
+
+To train the model, run:
+```bash
+python train.py --dataset <dataset_name> --epochs 100 --batch_size 16
+```
+
+### Evaluation
+
+Evaluate a trained model:
+```bash
+python evaluate.py --dataset <dataset_name> --checkpoint <path_to_model>
+```
+
+---
+
+## Model Architecture
+
+The Former-HGR architecture consists of:
+- **Hybrid Feature-Aware Transformer (HFAT) blocks**
+- **Multi-Dconv Head Transposed Attention (MDTA)**
+- **Hybrid Feature-Aware Network (HFAN)**
+
+![Former-HGR Architecture](docs/architecture.png)
