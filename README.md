@@ -90,4 +90,4 @@ The Former-HGR architecture consists of:
 - **Multi-Dconv Head Transposed Attention (MDTA)**
 - **Hybrid Feature-Aware Network (HFAN)**
 
-![Former-HGR Architecture](docs/architecture.png)
+![Former-HGR Architecture](docs/architecture.jpg)
