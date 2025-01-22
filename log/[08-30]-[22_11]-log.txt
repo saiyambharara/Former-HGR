@@ -1,0 +1,223 @@
+The training set: set 1
+********************0********************
+Current learning rate: 0.0001
+The best accuracy: 4.356846473029045
+An epoch time: {:.1f}s184.40170764923096
+********************1********************
+Current learning rate: 0.0001
+The best accuracy: 4.356846473029045
+An epoch time: {:.1f}s187.77976179122925
+********************2********************
+Current learning rate: 0.0001
+The best accuracy: 7.468879668049793
+An epoch time: {:.1f}s211.3218367099762
+********************3********************
+Current learning rate: 0.0001
+The best accuracy: 11.410788381742739
+An epoch time: {:.1f}s214.78581357002258
+********************4********************
+Current learning rate: 0.0001
+The best accuracy: 12.863070539419088
+An epoch time: {:.1f}s216.77729415893555
+********************5********************
+Current learning rate: 0.0001
+The best accuracy: 15.560165975103734
+An epoch time: {:.1f}s213.07071805000305
+********************6********************
+Current learning rate: 0.0001
+The best accuracy: 15.560165975103734
+An epoch time: {:.1f}s191.24980449676514
+********************7********************
+Current learning rate: 0.0001
+The best accuracy: 20.12448132780083
+An epoch time: {:.1f}s215.76389241218567
+********************8********************
+Current learning rate: 0.0001
+The best accuracy: 20.12448132780083
+An epoch time: {:.1f}s193.61760592460632
+********************9********************
+Current learning rate: 0.0001
+The best accuracy: 20.12448132780083
+An epoch time: {:.1f}s197.6626992225647
+********************10********************
+Current learning rate: 0.0001
+The best accuracy: 26.556016597510375
+An epoch time: {:.1f}s218.92209458351135
+********************11********************
+Current learning rate: 0.0001
+The best accuracy: 26.556016597510375
+An epoch time: {:.1f}s192.23839807510376
+********************12********************
+Current learning rate: 0.0001
+The best accuracy: 26.556016597510375
+An epoch time: {:.1f}s193.8943383693695
+********************13********************
+Current learning rate: 0.0001
+The best accuracy: 26.556016597510375
+An epoch time: {:.1f}s189.49079203605652
+********************14********************
+Current learning rate: 0.0001
+The best accuracy: 26.556016597510375
+An epoch time: {:.1f}s187.39943408966064
+********************15********************
+Current learning rate: 0.0001
+The best accuracy: 26.556016597510375
+An epoch time: {:.1f}s191.2561616897583
+********************16********************
+Current learning rate: 0.0001
+The best accuracy: 28.630705394190873
+An epoch time: {:.1f}s204.1833152770996
+********************17********************
+Current learning rate: 0.0001
+The best accuracy: 32.15767634854772
+An epoch time: {:.1f}s204.24499917030334
+********************18********************
+Current learning rate: 0.0001
+The best accuracy: 32.15767634854772
+An epoch time: {:.1f}s189.03939867019653
+********************19********************
+Current learning rate: 0.0001
+The best accuracy: 32.15767634854772
+An epoch time: {:.1f}s188.66490483283997
+********************20********************
+Current learning rate: 0.0001
+The best accuracy: 32.15767634854772
+An epoch time: {:.1f}s190.24309635162354
+********************21********************
+Current learning rate: 0.0001
+The best accuracy: 32.15767634854772
+An epoch time: {:.1f}s190.21119117736816
+********************22********************
+Current learning rate: 0.0001
+The best accuracy: 32.365145228215766
+An epoch time: {:.1f}s210.18221640586853
+********************23********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s215.05785870552063
+********************24********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s193.67324209213257
+********************25********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s194.0318250656128
+********************26********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s195.75828862190247
+********************27********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s194.07830548286438
+********************28********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s192.29245138168335
+********************29********************
+Current learning rate: 0.0001
+The best accuracy: 34.85477178423236
+An epoch time: {:.1f}s190.43032312393188
+********************30********************
+Current learning rate: 0.0001
+The best accuracy: 37.96680497925311
+An epoch time: {:.1f}s218.30157661437988
+********************31********************
+Current learning rate: 0.0001
+The best accuracy: 37.96680497925311
+An epoch time: {:.1f}s195.03233647346497
+********************32********************
+Current learning rate: 0.0001
+The best accuracy: 37.96680497925311
+An epoch time: {:.1f}s194.5444254875183
+********************33********************
+Current learning rate: 0.0001
+The best accuracy: 39.41908713692946
+An epoch time: {:.1f}s217.37542486190796
+********************34********************
+Current learning rate: 0.0001
+The best accuracy: 39.41908713692946
+An epoch time: {:.1f}s193.68762111663818
+********************35********************
+Current learning rate: 0.0001
+The best accuracy: 39.41908713692946
+An epoch time: {:.1f}s195.35976791381836
+********************36********************
+Current learning rate: 0.0001
+The best accuracy: 42.32365145228216
+An epoch time: {:.1f}s206.80619287490845
+********************37********************
+Current learning rate: 0.0001
+The best accuracy: 42.32365145228216
+An epoch time: {:.1f}s190.4066436290741
+********************38********************
+Current learning rate: 0.0001
+The best accuracy: 42.32365145228216
+An epoch time: {:.1f}s188.67366218566895
+********************39********************
+Current learning rate: 0.0001
+The best accuracy: 42.32365145228216
+An epoch time: {:.1f}s188.0979518890381
+********************40********************
+Current learning rate: 1e-05
+The best accuracy: 42.32365145228216
+An epoch time: {:.1f}s188.99483013153076
+********************41********************
+Current learning rate: 1e-05
+The best accuracy: 42.32365145228216
+An epoch time: {:.1f}s187.60375142097473
+********************42********************
+Current learning rate: 1e-05
+The best accuracy: 43.15352697095436
+An epoch time: {:.1f}s211.02903628349304
+********************43********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s206.23344612121582
+********************44********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s189.74496483802795
+********************45********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s193.35877180099487
+********************46********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s191.50861406326294
+********************47********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s192.30045080184937
+********************48********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s195.95836424827576
+********************49********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s192.63742852210999
+********************50********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s190.04889512062073
+********************51********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s193.3319525718689
+********************52********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s193.54255867004395
+********************53********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s195.20160627365112
+********************54********************
+Current learning rate: 1e-05
+The best accuracy: 45.22821576763486
+An epoch time: {:.1f}s194.9819495677948
+********************55********************
+Current learning rate: 1e-05

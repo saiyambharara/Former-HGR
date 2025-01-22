@@ -1,0 +1,7 @@
+The training set: set 1
+********************0********************
+Current learning rate: 0.0001
+The best accuracy: 3.7344398340248963
+An epoch time: {:.1f}s183.28902578353882
+********************1********************
+Current learning rate: 0.0001
